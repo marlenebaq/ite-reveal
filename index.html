@@ -37,6 +37,18 @@
     					</aside>
     				</section>
     				<section class="landing">
+    					<h3><strong>Agenda</strong></h3>
+    					<ol>
+    						<li>Background</li>
+    						<li>Project AlphaShapes</li>
+    						<li>Role & contributions</li>
+    						<li>Learnings</li>
+    						<li>Hacking AlphaShapes</li>
+    					</ol>
+    					<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="landing">
     					<h1>What <strong>sucks</strong> about being a student</h1>
     					<p class="fragment">"How am I supposed to know what I want to do?"</p>
     					<p class="fragment">"Am I going <i>really</i> to need this?"</p>
@@ -53,18 +65,6 @@
     						<aside class="notes">
     					</aside>
     				</section>
-    				<section class="landing">
-    					<h3>Agenda</h3>
-    					<ol>
-    						<li>Background</li>
-    						<li>Project AlphaShapes</li>
-    						<li>Contributions to AlphaShapes</li>
-    						<li>Learnings</li>
-    						<li>AnyShapes, an AlphaShapes hack</li>
-    					</ol>
-    					<aside class="notes">
-    					</aside>
-    				</section>
     				<section class="main">
     					<div style="display: block">
     						<h1><strong><span style="color: #EF8F19">Alpha</span><span style="color: #3543EF">Shapes</span></strong></h1>
@@ -77,25 +77,71 @@
     					</aside>
     				</section>
     				<section class="landing">
-    					<h2>Tasks and stories</h2>
-    					<ul>
-    						<li>eBay 3000 (a mini intro to React)</li>
-    						<li>Front-end and back-end stories</li>
-    							<ul>
-    								<li>Design & Documentation</li>
-    								<li>Test writing</li>
-    								<li>Code review and QA</li>
-    							</ul>
-    					</ul>
-    				</section>
-    				<section class="landing">
-    					<h2>Tree criteria menu</h2>
-    					<img src="criteria_old.gif" height="600px"><img src="tree_menu.gif" height="600px">
-    				</section>
-    				<section data-markdown>
-    					<script type="text/template">
+    					<section class="landing">
+    						<h1><strong>Tasks</strong> and <strong>stories</strong></h1>
+    						<ul>
+    							<li>eBay 3000 (a mini intro to React)</li>
+    							<li>Front-end and back-end stories</li>
+    								<ul>
+    									<li>Design & Documentation</li>
+    									<li>Test writing</li>
+    									<li>Code review and QA</li>
+    								</ul>
+    						</ul>
+    					</section>
+    					<section class="landing">
+    						<h2><strong>Persistence</strong></h2>
+    						// Insert something more interesting here.
+    						<img src="persistence.png" class="fragment">
+    					</section>
+    					<section class="landing">
+    						<h2><strong>Tooltips</strong></h2>
+    						<img src="tooltips.gif" class="fragment" height="600px">
+    					</section>
+    					<section class="landing">
+    						<h2><strong>Linkage</strong></h2>
+    						<!-- <img src="tooltips.gif" class="fragment" height="600px"> -->
+    					</section>
+    					<section data-markdown>
+    						<script type="text/template">
+## <strong>Consolidated Chart of Accounts</strong>
+Set 'Non-bank Revenue' + Set 'Bank revenue' => Set 'Total revenue'
+```
+{
+	"COA": "TREV",
+	"dates": {
+		"1990":
+			[
+				["BANK.A","9876.600000"],
+				["BANK.B","8765.500000"],
+				["NON-BANK.A","7654.400000"],
+				["NON-BANK.B","6543.300000"],
+				["BANK.C","5432.200000"],
+			],
+		...
+	},
+	...
+}
+```
+							</script>
+						</section>
+						<section class="landing">
+						<h2><strong>Ascending/Descending ranking</strong></h2>
+							<img src="rank-incorrect.png">
+							<img src="rank-correct.png" class="fragment">
+						</section>
+						<section class="landing">
+							<h2><strong>Year-on-Year</strong></h2>
+							<img src="yoy-1.png" height="410px" class="fragment"><img src="yoy-2.png" height="410px" class="fragment">
+						</section>
+						<section class="landing">
+						<h2><strong>Tree criteria menu</strong></h2>
+						<img src="criteria_old.gif" height="600px" class="fragment"><img src="tree_menu.gif" height="600px" class="fragment">
+					</section>
+						<section data-markdown>
+							<script type="text/template">
 <h2>(Not pictured: a <span class="fragment highlight-red">lot</span> of  <span class="fragment highlight-red">unit tests</span>.)</h2>
-<h4 class="fragment">(And a <span class="fragment highlight-red">lot</span> of <span class="fragment highlight-red">flaky</span> <span class="fragment highlight-red">end to end tests</span>.)</h4>
+<h4 class="fragment" style="text-align: center">(And a <span class="fragment highlight-red">lot</span> of <span class="fragment highlight-red">flaky</span> <span class="fragment highlight-red">end to end tests</span>.)</h4>
 ```
 // Started from the bottom now we're here
 ======================== Coverage summary ========================
@@ -105,10 +151,11 @@ Functions    : 83.05% ( 387/466 )
 Lines        : 83.79% ( 2512/2998 )
 ==================================================================
 ```
-					</script>
+						</script>
+					</section>
 				</section>
 				<section class="landing">
-					<h2>In the spirit of hoarding data:</h2>
+					<h2><span style="color: #FF625D">In the spirit of hoarding data:</span></h2>
 					<br>
 					<ul>
 						<li>3 repositories</li>
@@ -124,12 +171,18 @@ Lines        : 83.79% ( 2512/2998 )
 					</aside>
 				</section>
 				<section class="landing">
-					<h1>Learnings</h1>
-					<ul>
-						<li class="fragment highlight-blue">New front-end technologies and testing frameworks.</li>
-						<li class="fragment highlight-blue">Agile delivery is stressful. In a good way.</li>
-						<li class="fragment highlight-blue">Testing may not be sexy, but it's important.</li>
-					</ul>
+					<h1><strong>Learnings</strong></h1>
+					<!-- <div class="float-my-children"> -->
+						<ul>
+							<li class="fragment highlight-blue">Python & JavaScript skills.
+							<li class="fragment highlight-blue">New front-end technologies and testing frameworks.</li>
+							<li class="fragment highlight-blue">Agile delivery can be stressful. In a good way.</li>
+							<li class="fragment highlight-blue">Testing may not be sexy, but it's important.</li>
+							<br>
+							<li class="fragment"><i>Don't start a dev ingestion for 500+ instruments at 5.30pm. :(</i></li>
+						</ul>
+						<!-- <img src="http://www.explainxkcd.com//wiki/images/f/fd/python.png" height="200px"></li> -->
+					<!-- </div> -->
 				</section>
 				<section>
 					<section class="landing">
@@ -148,12 +201,26 @@ Lines        : 83.79% ( 2512/2998 )
 						</aside>
 					</section>
 					<section class="main">
-						<img src="anyshapes-view.png">
+						<img src="anyshapes-view.png" height="700px">
 						<aside class="notes">
 						</aside>
 					</section>
 					<section class="main">
-						<img src="anyshapes-admin.png">
+						<img src="anyshapes-admin.png" height="700px">
+						<aside class="notes">
+						</aside>
+					</section>
+					<section class="landing">
+						<div class="left">
+							<br><h3>Learnings</h3>
+							<span>
+								<ul>
+									<li>Even more front-end technologies: Redux & Grommet.</li>
+									<li>Hackathons are fun.</li>
+									<li>Building a project from ground-up under pressure.</li>
+								</ul>
+							</span>
+						</div>
 						<aside class="notes">
 						</aside>
 					</section>

@@ -6,6 +6,7 @@ Reveal.initialize({
     history: false,
     overview: false,
     loop: false,
+    // zoomKey: 'shift',
     transition: 'linear',
     anything: [
      // {
