@@ -37,7 +37,6 @@ Reveal.initialize({
                 d3.select(this).style("fill", "white");
             })
             .on("click", function() {
-                console.log('clocl');
             });
       }),
      },
