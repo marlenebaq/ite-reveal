@@ -31,9 +31,13 @@
     					<script src="js/bubbles.js">
     					</script>
     				</section> -->
-    				<section class="landing">
-    					<h1>'Hello, World of <strong>Big Data!</strong>'</h1>
+    				<section class="main">
+    					<h1>'Hello, World of <br><strong>Big Data!</strong>'</h1>
     					<aside class="notes">
+    						<ul>
+    						<li>Last week</li>
+    						<li>2nd placement, but first experience with big data.</li>
+    						</ul>
     					</aside>
     				</section>
     				<section class="landing">
@@ -49,63 +53,127 @@
     					</aside>
     				</section>
     				<section class="landing">
-    					<h1>What <strong>sucks</strong> about being a student</h1>
-    					<p class="fragment">"How am I supposed to know what I want to do?"</p>
-    					<p class="fragment">"Am I going <i>really</i> to need this?"</p>
-    					<p class="fragment"><strong>"Why all these entry-level jobs asking for a minimum of 5-200 years of experience!?"</strong></p>
+    					<h1 class="fragment">Some things <strong>suck</strong> about being a student.</h1>
+    					<p class="fragment">"How am I supposed to know this is what I want to do?"</p>
+    					<p class="fragment">"Am I <i>really</i> going to need this?"</p>
+    					<p class="fragment"><strong>"Why do all these entry-level jobs ask for a minimum of 5-200 years of experience!?"</strong></p>
     					<aside class="notes">
+    						<ul>
+	    						<li>2nd year</li>
+	    						<li>Probably a lot of you had same concerns</li>
+    						</ul>
     					</aside>
     				</section>
     				<section class="landing">
     					<!-- <h1>UNSW Co-op Program</h1> -->
     					<div class="clearfix float-my-children">
     						<img src="https://pbs.twimg.com/profile_images/593986627594125312/8gVNl-ra.png" style="margin-right: 40px; margin-left: 60px">
-    						<img src="https://media.glassdoor.com/sqll/926368/rozetta-technology-squarelogo-1466075385528.png" style="padding: 110px; background-color: #ffffff">
+    						<img src="rozetta.png" style="padding: 110px; background-color: #ffffff">
     					</div>
     						<aside class="notes">
-    					</aside>
+	    						<ul>
+		    						<li>Co-op puts these concerns to peace</li>
+		    						<li>It's a career development scholarship that pushes you to learn hands-on and in an academic environment at the same time</li>
+		    						<li>Obviously you get financial support, but it is also a great chance to engage with a community of like-minded and high-achieving scholars, as well as professionals.</li>
+	    						</ul>
+	    						<ul>
+		    						<li>RoZetta is a big data company.</li>
+		    						<li>Possibly when you hear 'big data' the first thing that comes to mind is a whole lot of numbers.</li>
+		    						<li>RoZetta does more than processing and providing big data.</li>
+		    						<li>RoZetta's aim is to tame big data and make it meaningful and understandable so that it can create data-driven insights. Insights which can empower decision making with regards to things like investment opportunties, customer management and risk management.</li>
+	    						</ul>
+    						</aside>
     				</section>
     				<section class="main">
     					<div style="display: block">
     						<h1><strong><span style="color: #EF8F19">Alpha</span><span style="color: #3543EF">Shapes</span></strong></h1>
+    						Driven by data ingested using Python.
     						A financial data visualisation tool
-    						built in React, D3 and Alt.js.
-    						Realised through data ingested using Python.
-    						<img src="shape.gif" height="450px">
+    						built in React, Alt.js and D3.js.
+    						<div style="display: block;">
+    							<img src="shape.gif" height="300px"><br>
+    							<img src="eikon.png" height="100px" style="border: 0px">
+    						</div>
     					</div>
     					<aside class="notes">
+    						<li>Project AlphaShapes has been lead by Benjamin King, and a cross-functional dev team of about 3-5 software engineers.</li>
+    						<li>AlphaShapes is a financial data viz tool made to launch on Eikon.</li>
+    						<li>It lets you select a financial criterion to rank and compare constituents of major stock indices like DJI, ASX, NYSE.</li>
+    						<li>BE ingester built in Python - transformation of data. It periodically downloads and processes Thomson Reuters data into static JSON files to serve to the front-end.</li>
+    						<li>FE - representation of data. Built in React, D3, AltJS.</li>
     					</aside>
     				</section>
-    				<section class="landing">
+    				<section class="main">
     					<section class="landing">
-    						<h1><strong>Tasks</strong> and <strong>stories</strong></h1>
+    						<h1><strong>Tasks</strong> and <strong>contributions</strong></h1>
     						<ul>
-    							<li>eBay 3000 (a mini intro to React)</li>
     							<li>Front-end and back-end stories</li>
     								<ul>
-    									<li>Design & Documentation</li>
-    									<li>Test writing</li>
-    									<li>Code review and QA</li>
+    									<li class="fragment highlight-blue">Design & Documentation</li>
+    									<li class="fragment highlight-blue">Implementation</li>
+    									<li class="fragment highlight-blue">Test writing</li>
+    									<li class="fragment highlight-blue">Code review</li>
+    									<li class="fragment highlight-blue">QA</li>
     								</ul>
     						</ul>
+    						<aside class="notes">
+	    						<li>I walked in with no practical exposure to React or even JavaScript or even front-end web dev under my sleeve.</li>
+	    						<li>But the best way to learn is by doing.</li>
+	    						<li>I got to be involved in most FE & BE stories in some way, whether it was as passive as participating in design review, actually designing and implementing a feature, helping out with test writing, doing code reviews, or getting a story through the final stretch through QA.</li>
+	    						<li>Let me get into the meaty part and give you a look at what I got to implement.</li>
+	    					</aside>
     					</section>
-    					<section class="landing">
-    						<h2><strong>Persistence</strong></h2>
-    						// Insert something more interesting here?
-    						<img src="persistence.png" class="fragment">
+    					<section class="main">
+    						<h2><strong>Front-End: Persistence</strong></h2>
+    						<img src="persistence.png" class="fragment" height="600px">
+    						<aside class="notes">
+    							<ul>
+    								<li>One of first tasks implemented by pair programming with Anthony.</li>
+    								<li>If you're a trader using AlphaShapes, there is a good chance you are you are going to be using near daily, and you are probably using AlphaShapes to keep track of a particular dataset.</li>
+    								<li>It's important to make it easy for the user to re-open AlphaShapes with the same state it was last in - if they close the app looking at Total Revenue for Dow Jones, that's what they should see when they open it.</li>
+    								<li>The solution is straight-forward: whenever the user makes some change, like the index they're viewing, the criteria they use, or the settings they use to view an AlphaShape, we serialize that state into a string and save that in local storage.</li>
+    								<li>When the user starts up AlphaShapes, we've got up to date information on how they last left the app, and all we have to do is restore it.</li>
+    							</ul>
+    						</aside>
     					</section>
-    					<section class="landing">
-    						<h2><strong>Tooltips</strong></h2>
+    					<section class="main">
+    						<h2><strong>Front-End: Tooltips</strong></h2>
     						<img src="tooltips.gif" class="fragment" height="600px">
+    						<aside class="notes">
+    							<ul>
+    								<li>Next task - to create tooltips that make AlphaShapes more intuitive.</li>
+    								<li>Implemented with the help of D3</li>
+    								<li>Different kinds for different kinds of info</li
+    								<li>Summaries at a glance: ranks of constituents, exact data values</li>
+    							</ul>
+    						</aside>
     					</section>
-    					<section class="landing">
-    						<h2><strong>Linkage</strong></h2>
+    					<section class="main">
+    						<h2><strong>Front-End: Linkage</strong></h2>
     						<img src="linkage.gif" class="fragment" height="600px">
+    						<aside class="notes">
+    							<ul>
+    								<li>Improve linkage between Thomson Reuter's Eikon</li>
+    								<li>Users on Eikon can easily integrate AlphaShapes into their typical workflow by connecting it to other apps</li>
+    								<li>One hit of 'enter' to view different kinds of data for the same constituent such as V.N</li>
+    							</ul>
+    						</aside>
     					</section>
+<!--     					<section class="main">
+						<h2><strong>Back-end: Ascending/Descending ranking</strong></h2>
+							<img src="rank-incorrect.png">
+							<img src="rank-correct.png" class="fragment">
+							<aside class="notes">
+    							<ul>
+    								<li>Ranking correctly</li>
+    								<li>Bigger is not always better especially when it comes to things like debt...</li>
+    							</ul>
+    						</aside>
+						</section> -->
     					<section data-markdown>
     						<script type="text/template">
-## <strong>Consolidated Chart of Accounts</strong>
-Set 'Non-bank Revenue' + Set 'Bank revenue' => Set 'Total revenue'
+## <strong>Back-end: Consolidated Chart of Accounts</strong>
+Set 'Non-bank Revenue' + Set 'Bank revenue' => Set 'Total revenue' (TREV)
 ```
 {
 	"COA": "TREV",
@@ -124,24 +192,42 @@ Set 'Non-bank Revenue' + Set 'Bank revenue' => Set 'Total revenue'
 }
 ```
 							</script>
+							<aside class="notes">
+    							<ul>
+    								<li>Thankfully did get to get hands dirty in the back-end</li>
+    								<li>Data from TR naturally distinguishes between non-bank and bank</li>
+    								<li>Concoct a new dataset out of two existing datasets to provide a criteria more helpful to the user</li>
+    							</ul>
+    						</aside>
 						</section>
-						<section class="landing">
-						<h2><strong>Ascending/Descending ranking</strong></h2>
-							<img src="rank-incorrect.png">
-							<img src="rank-correct.png" class="fragment">
-						</section>
-						<section class="landing">
-							<h2><strong>Year-on-Year</strong></h2>
+						<section class="main">
+							<h2><strong>Front-end: Year-on-Year</strong></h2>
 							<img src="yoy-1.png" height="410px" class="fragment"><img src="yoy-2.png" height="410px" class="fragment">
+							<aside class="notes">
+    							<ul>
+    								<li>Implement FE for Year-on-Year</li>
+    								<li>Year-on-Year refers to growth between years given a criteria and a constituent.</li>
+    								<li>Calculations are done in BE.</li>
+    								<li>FE: provide UI for the user to quickly switch between and compare values AR and YOY.</li>
+    							</ul>
+    						</aside>
 						</section>
-						<section class="landing">
-						<h2><strong>Tree criteria menu</strong></h2>
-						<img src="criteria_old.gif" height="600px" class="fragment"><img src="tree_menu.gif" height="600px" class="fragment">
-					</section>
+						<section class="main">
+							<h2><strong>Front-end: Tree criteria menu</strong></h2>
+							<img src="criteria_old.gif" height="600px" class="fragment"><img src="tree_menu.gif" height="600px" class="fragment">
+							<aside class="notes">
+    							<ul>
+    								<li>The last completed story.</li>
+    								<li>It's been called unusable - you can probably tell why.</li>
+    								<li>Information overload is a threat to good UX.</li>
+    								<li>Investigated, hacked, then fully implemented a smarter & interactive search menu.</li>
+    							</ul>
+    						</aside>
+						</section>
 						<section data-markdown>
-							<script type="text/template">
-<h2>(Not pictured: a <span class="fragment highlight-red">lot</span> of  <span class="fragment highlight-red">unit tests</span>.)</h2>
-<h4 class="fragment" style="text-align: center">(And a <span class="fragment highlight-red">lot</span> of <span class="fragment highlight-red">flaky</span> <span class="fragment highlight-red">end to end tests</span>.)</h4>
+<script type="text/template">
+<h2>(Not pictured: a <span class="fragment highlight-red">lot</span> of unit tests.)</h2>
+<h4 class="fragment" style="text-align: center">(And a <span class="fragment highlight-red">lot</span> of flaky end to end tests.)</h4>
 ```
 // Started from the bottom now we're here
 ======================== Coverage summary ========================
@@ -151,46 +237,40 @@ Functions    : 83.05% ( 387/466 )
 Lines        : 83.79% ( 2512/2998 )
 ==================================================================
 ```
-						</script>
+</script>
+							<aside class="notes">
+    							<ul>
+    								<li>Pretty pictures out of unit tests.</li>
+    								<li>Shame - started from 0% on joining.</li>
+    								<li>Long way to go, long way to have come.</li>
+    							</ul>
+    						</aside>
+						</section>
 					</section>
-				</section>
-				<section class="landing">
-					<h2><span style="color: #FF625D">In the spirit of hoarding data:</span></h2>
-					<br>
-					<ul>
-						<li>3 repositories</li>
-						<li>33 JIRA items</li>
-						<li>116 files changed</li>
-						<li>140 GitHub contributions</li>
-						<li>8344 lines added</li>
-						<li>5100 lines removed</li>
-						<li>2 sprint review showcases</li><br>
-						<span class="fragment"><i>"Measuring programming progress by lines of code is like measuring aircraft building progress by weight"</i></li>
-					</ul>
-					<aside class="notes">
-					</aside>
-				</section>
-				<section class="landing">
-					<h1><strong>Learnings</strong></h1>
-					<!-- <div class="float-my-children"> -->
+					<section class="landing">
+						<h2><span style="color: #FF625D">In the spirit of hoarding data:</span></h2>
+						<br>
 						<ul>
-							<!-- <li class="fragment highlight-blue">Big data can drive big insights.</li> -->
-							<li class="fragment highlight-blue">Python & JavaScript skills.</li>
-							<li class="fragment highlight-blue">New front-end technologies and testing frameworks.</li>
-							<li class="fragment highlight-blue">Agile delivery can be stressful. In a good way.</li>
-							<li class="fragment highlight-blue">Testing may not be sexy, but it's important.</li>
-							<br>
-							<li class="fragment"><i>Don't start a dev ingestion for 500+ instruments at 5.30pm. :(</i></li>
+							<li>2 repositories</li>
+							<li>116 files changed</li>
+							<li>33 JIRA items</li>
+							<li>140 GitHub contributions</li>
+							<li>8344 lines added</li>
+							<li>5100 lines removed</li>
+							<li>2 sprint review showcases</li><br>
+							<span class="fragment"><i>"Measuring programming progress by lines of code is like measuring aircraft building progress by weight"</i></li>
 						</ul>
-						<!-- <img src="http://www.explainxkcd.com//wiki/images/f/fd/python.png" height="200px"></li> -->
-					<!-- </div> -->
+						<aside class="notes">
+							<ul>
+								<li></li>
+							</ul>
+						</aside>
 				</section>
 				<section>
 					<section class="landing">
 						<h2>15/16 Dec</h2><h2><strong>RoZetta Hackathon</strong> "AnyShapes"</h2>
 						<div class="left">
 							<br><h3>Mission</h3>
-							<span>In 1.5 days:
 								<ol>
 									<li>Mock up an AlphaShapes-esque app to help rank people by their measurable skillsets.</li>
 									<li>Generalise it, so that you can plug in any type of data you like.</li>
@@ -202,35 +282,41 @@ Lines        : 83.79% ( 2512/2998 )
 						</aside>
 					</section>
 					<section class="main">
-						<img src="anyshapes-view.png" height="700px">
+						Say hello to your new front-end friends: Redux, Grommet, Chart.js.
+						<img src="anyshapes-view.png" height="600px">
 						<aside class="notes">
 						</aside>
 					</section>
 					<section class="main">
-						<img src="anyshapes-admin.png" height="700px">
-						<aside class="notes">
-						</aside>
-					</section>
-					<section class="landing">
-						<div class="left">
-							<br><h3><strong>Learnings</strong></h3>
-							<span>
-								<ul>
-									<li>Even more front-end technologies: Redux & Grommet.</li>
-									<li>Hackathons are fun.</li>
-									<li>Building a project from ground-up under pressure.</li>
-								</ul>
-							</span>
-						</div>
+						<img src="anyshapes-admin.png" height="500px">
 						<aside class="notes">
 						</aside>
 					</section>
 				</section>
 				<section class="landing">
+					<h1><strong>Learnings</strong></h1>
+						<ul>
+							<li class="fragment highlight-blue">Technical Python & JavaScript skills.</li>
+							<li class="fragment highlight-blue">Front-end technologies and testing frameworks.</li>
+							<li class="fragment highlight-blue">Agile delivery can be stressful... In a good way.</li>
+							<li class="fragment highlight-blue">Testing may not be sexy, but it's important.</li>
+							<li class="fragment highlight-blue">Building a project from the ground-up.</li>
+							<br>
+							<li class="fragment"><i>Do not start a dev ingestion for 500+ instruments at 5.30pm. :(</i></li>
+							<aside class="notes">
+
+							</aside>
+						</ul>
+				</section>
+				<section class="main">
+					<h1>What's next?</h1>
+					<img src="http://www.clker.com/cliparts/C/8/x/R/g/5/purple-compass-rose-graphic-md.png" style="border:0px">
+				</section>
+				<section class="landing">
 					<h1><span style="color: #4531FF">Thank you!</span></h1>
-					<ul>
-						Anthony, Benjamin, Daniel, Balram, Kenneth, Yohann, Ian, Cheney, Thiago, Nikola
-					</ul>
+					<p>Anthony, Benjamin, Daniel, Balram, Kenneth, Yohann, Ian, Cheney, Thiago, Nikola</p>
+					<p>Sabine, Stephany, Wen</p>
+					<b>Co-op & RoZetta!</b>
 				</section>
 			</div>
 		</div>
