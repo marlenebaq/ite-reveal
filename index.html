@@ -7,30 +7,173 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+    		<!-- Printing and PDF exports -->
+    		<script>
+    			var link = document.createElement( 'link' );
+    			link.rel = 'stylesheet';
+    			link.type = 'text/css';
+    			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    			document.getElementsByTagName( 'head' )[0].appendChild( link );
+    		</script>
+    	</head>
+    	<body>
+    		<div class="reveal">
+    			<div class="slides">
+<!--				<section class="landing">
+    					<div id="mainBubble" style="height: 579px;"><svg class="mainBubbleSVG"></svg></div>
+    				    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    					<script src="js/bubbles.js">
+    					</script>
+    				</section> -->
+    				<section class="landing">
+    					<h1>'Hello, World of <strong>Big Data!</strong>'</h1>
+    					<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="landing">
+    					<h1>What <strong>sucks</strong> about being a student</h1>
+    					<p class="fragment">"How am I supposed to know what I want to do?"</p>
+    					<p class="fragment">"Am I going <i>really</i> to need this?"</p>
+    					<p class="fragment"><strong>"Why all these entry-level jobs asking for a minimum of 5-200 years of experience!?"</strong></p>
+    					<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="landing">
+    					<!-- <h1>UNSW Co-op Program</h1> -->
+    					<div class="clearfix float-my-children">
+    						<img src="https://pbs.twimg.com/profile_images/593986627594125312/8gVNl-ra.png" style="margin-right: 40px; margin-left: 60px">
+    						<img src="https://media.glassdoor.com/sqll/926368/rozetta-technology-squarelogo-1466075385528.png" style="padding: 110px; background-color: #ffffff">
+    					</div>
+    						<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="landing">
+    					<h3>Agenda</h3>
+    					<ol>
+    						<li>Background</li>
+    						<li>Project AlphaShapes</li>
+    						<li>Contributions to AlphaShapes</li>
+    						<li>Learnings</li>
+    						<li>AnyShapes, an AlphaShapes hack</li>
+    					</ol>
+    					<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="main">
+    					<div style="display: block">
+    						<h1><strong><span style="color: #EF8F19">Alpha</span><span style="color: #3543EF">Shapes</span></strong></h1>
+    						A financial data visualisation tool
+    						built in React, D3 and Alt.js.
+    						Realised through data ingested from TR with Python.
+    						<img src="shape.gif" height="450px">
+    					</div>
+    					<aside class="notes">
+    					</aside>
+    				</section>
+    				<section class="landing">
+    					<h2>Tasks and stories</h2>
+    					<ul>
+    						<li>eBay 3000 (a mini intro to React)</li>
+    						<li>Front-end and back-end stories</li>
+    							<ul>
+    								<li>Design & Documentation</li>
+    								<li>Test writing</li>
+    								<li>Code review and QA</li>
+    							</ul>
+    					</ul>
+    				</section>
+    				<section class="landing">
+    					<h2>Tree criteria menu</h2>
+    					<img src="criteria_old.gif" height="600px"><img src="tree_menu.gif" height="600px">
+    				</section>
+    				<section data-markdown>
+    					<script type="text/template">
+<h2>(Not pictured: a <span class="fragment highlight-red">lot</span> of  <span class="fragment highlight-red">unit tests</span>.)</h2>
+<h4 class="fragment">(And a <span class="fragment highlight-red">lot</span> of <span class="fragment highlight-red">flaky</span> <span class="fragment highlight-red">end to end tests</span>.)</h4>
+```
+// Started from the bottom now we're here
+======================== Coverage summary ========================
+Statements   : 83.58% ( 2565/3069 )
+Branches     : 72.66% ( 1055/1452 )
+Functions    : 83.05% ( 387/466 )
+Lines        : 83.79% ( 2512/2998 )
+==================================================================
+```
+					</script>
+				</section>
+				<section class="landing">
+					<h2>In the spirit of hoarding data:</h2>
+					<br>
+					<ul>
+						<li>3 repositories</li>
+						<li>33 JIRA items</li>
+						<li>116 files changed</li>
+						<li>140 GitHub contributions</li>
+						<li>8344 lines added</li>
+						<li>5100 lines removed</li>
+						<li>2 sprint review showcases</li><br>
+						<span class="fragment"><i>"Measuring programming progress by lines of code is like measuring aircraft building progress by weight"</i></li>
+					</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section class="landing">
+					<h1>Learnings</h1>
+					<ul>
+						<li class="fragment highlight-blue">New front-end technologies and testing frameworks.</li>
+						<li class="fragment highlight-blue">Agile delivery is stressful. In a good way.</li>
+						<li class="fragment highlight-blue">Testing may not be sexy, but it's important.</li>
+					</ul>
+				</section>
+				<section>
+					<section class="landing">
+						<h2>15/16 Dec</h2><h2><strong>RoZetta Hackathon</strong> "AnyShapes"</h2>
+						<div class="left">
+							<br><h3>Mission</h3>
+							<span>In 1.5 days:
+								<ol>
+									<li>Mock up an AlphaShapes-esque app to help rank people by their measurable skillsets.</li>
+									<li>Generalise it, so that you can plug in any type of data you like.</li>
+									<span class="fragment"><i>("AnyDates AKA Tinder for financial experts", anyone?)</i></span></li>
+								</ol>
+							</span>
+						</div>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section class="main">
+						<img src="anyshapes-view.png">
+						<aside class="notes">
+						</aside>
+					</section>
+					<section class="main">
+						<img src="anyshapes-admin.png">
+						<aside class="notes">
+						</aside>
+					</section>
+				</section>
+				<section class="landing">
+					<h1><span style="color: #4531FF">Thank you!</span></h1>
+					<ul>
+						Anthony, Benjamin, Daniel, Balram, Kenneth, Yohann, Ian, Cheney, Thiago, Nikola
+					</ul>
+				</section>
 			</div>
+		</div>
+
+		<div id="timeline">
+			<ul></ul>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="js/app.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -48,3 +191,11 @@
 		</script>
 	</body>
 </html>
+
+<!-- Your agenda/executive summary (What will you be covering in your presentation?) The Co-op Program (What is the Co-op Program?)
+The sponsor (What is the company about? What does the company do?)
+Your team/s (Who did you work with? What do they do withinthe company?)
+Your project or role (What tasks were you assigned? What type of work did you undertake?) Your value (How did you contribute? How did your work bring value to the company? Is there a tangible outcome? Is there a different team dynamic?)
+Your learning (What did you learn from this experience? What skills did you gain?) The future (What is the vision for the team you worked with and or the project you worked on going forward? What your plans are from here?)
+Thank you to the people involved (Acknowledge the time, energy and support of the people who have contributed to your experience)
+ -->

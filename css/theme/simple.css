@@ -5,17 +5,25 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Regular-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Bold-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Light-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Thin-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Regular-Italic-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Bold-Italic-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Light-Italic-Webfont/stylesheet.css);
+@import url(../../lib/font/Bariol-Complete-Webfont/Bariol-Thin-Italic-Webfont/stylesheet.css)
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #F9F8F6;
+  background-color: #F9F8F6; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "bariolregular", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #000; }
@@ -41,7 +49,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #000;
-  font-family: "News Cycle", Impact, sans-serif;
+  font-family: "bariolbold", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
