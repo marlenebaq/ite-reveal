@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="landing">
+					<h1>6 MONTHS AT ROZETTA</h1>
+				</section>
+				<section class="landing">
+					<h1>What <strong>stinks</strong> about being a student</h1>
+					<p class="fragment">"How am I supposed to know what I want to do?"</p>
+					<p class="fragment">"Am I going <i>really</i> to need this?"</p>
+					<p class="fragment">"Why all these entry-level jobs asking for 5-200 years of experience!?"</p>
+				</section>
+				<section class="landing">
+					<h1>What's <strong>awesome</strong> about being a co-op scholar</h1>
+					<p class="fragment">RoZetta!</p>
+				</section>
+				<section class="landing">
+					<h1>So I heard you guys like <strong>data viz</strong></h1>
+					<div class="step"></div>
+					<!-- <canvas class="chart"> -->
+						<!--
+{
+ "type": "pie",
+ "data": {
+  "labels": ["January"," February"],
+  "datasets":[
+   {
+    "data":[" 65"," 59"],
+    "label":"My first dataset","backgroundColor":["rgba(20,220,220,.8)","rgba(220,120,120,.8)"]
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+					<!-- </canvas> -->
+					<svg id="fillgauge1" width="97%" height="250"></svg>
+				</section>
+				<section class="landing">
+					<h1>Learnings</h1>
+					<p class="fragment">Blah blah</p>
+				</section>
+				<section class="landing">
+					<img src="http://www.rozettatechnology.com/content/rozetta/assets/Careers/currentops.png">
+				</section>
+			</div>
+		</div>
+
+		<div id="timeline">
+			<ul></ul>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/app.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
+
+<!-- Your agenda/executive summary (What will you be covering in your presentation?) The Co-op Program (What is the Co-op Program?)
+The sponsor (What is the company about? What does the company do?)
+Your team/s (Who did you work with? What do they do withinthe company?)
+Your project or role (What tasks were you assigned? What type of work did you undertake?) Your value (How did you contribute? How did your work bring value to the company? Is there a tangible outcome? Is there a different team dynamic?)
+Your learning (What did you learn from this experience? What skills did you gain?) The future (What is the vision for the team you worked with and or the project you worked on going forward? What your plans are from here?)
+Thank you to the people involved (Acknowledge the time, energy and support of the people who have contributed to your experience)
+ -->
